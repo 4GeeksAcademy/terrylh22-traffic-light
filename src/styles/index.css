@@ -1,12 +1,43 @@
+.blackBar {
+    width: 50px;
+    height: 125px;
+    margin: auto;
+    background-color: black;
+}
 
-/* 
+.blackBox {
+    width: 175px;
+    height: 400px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.light {
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    background-color: white;
+}
 
-*/
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.selected {
+    box-shadow: 0 0 10px 5px white;
+}
+
